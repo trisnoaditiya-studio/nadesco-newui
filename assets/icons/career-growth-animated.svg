@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Pengembangan">
+<title>Pengembangan</title>
+<style>
+.b{transform-box:fill-box;transform-origin:50% 100%;animation:gr 2s cubic-bezier(.215,.61,.355,1) infinite}
+.b2{animation-delay:.15s}
+.b3{animation-delay:.3s}
+@keyframes gr{0%{transform:scaleY(.3)}45%,80%{transform:scaleY(1)}100%{transform:scaleY(.3)}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<path d="M3 20h18"></path><path class="b" d="M4 20V9"></path><path class="b b2" d="M10 20V4"></path><path class="b b3" d="M16 20v-7"></path>
+</svg>

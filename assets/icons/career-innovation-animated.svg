@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Inovasi">
+<title>Inovasi</title>
+<style>
+.s{transform-box:fill-box;transform-origin:50% 55%;animation:tw 1.8s ease-in-out infinite}
+@keyframes tw{0%,100%{transform:scale(1) rotate(0)}40%{transform:scale(.86) rotate(-12deg)}70%{transform:scale(1.04) rotate(4deg)}}
+.k{transform-box:fill-box;transform-origin:center;animation:sp 1.8s ease-in-out infinite}
+@keyframes sp{0%,30%{opacity:0;transform:scale(.4)}55%{opacity:1;transform:scale(1)}85%,100%{opacity:0;transform:scale(.4)}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}.k{opacity:0}}
+</style>
+<path class="s" d="M12 2.5 14.6 9h6.9l-5.6 4 2.1 6.5-6-4.2-6 4.2L8.1 13 2.5 9h6.9z"></path><path class="k" stroke-width="1.4" d="M20.5 1.5v3M19 3h3"></path>
+</svg>

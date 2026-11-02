@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Negara">
+<title>Negara</title>
+<style>
+.a{transform-box:fill-box}
+.mer{transform-origin:50% 50%;animation:mer 2.4s ease-in-out infinite}
+@keyframes mer{0%,100%{transform:scaleX(1)}50%{transform:scaleX(-1)}}
+.lat{animation:lat 2.4s ease-in-out infinite}
+@keyframes lat{0%,100%{opacity:1}50%{opacity:.45}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<circle cx="12" cy="12" r="10"></circle><path class="a mer" d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path class="lat" d="M2 12h20"></path>
+</svg>

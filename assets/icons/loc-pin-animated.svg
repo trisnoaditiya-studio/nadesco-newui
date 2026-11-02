@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Lokasi">
+<title>Lokasi</title>
+<style>
+.a{transform-box:view-box}
+.pin{transform-origin:12px 21px;animation:bounce 1.4s cubic-bezier(.3,0,.2,1) infinite}
+@keyframes bounce{0%,100%{transform:translateY(0) scale(1,1)}30%{transform:translateY(-3px) scale(1,1)}55%{transform:translateY(0) scale(1.06,.94)}70%{transform:translateY(0) scale(1,1)}}
+.sh{transform-origin:12px 22.5px;animation:sh 1.4s cubic-bezier(.3,0,.2,1) infinite}
+@keyframes sh{0%,100%,55%{transform:scale(1);opacity:.7}30%{transform:scale(.6);opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<ellipse class="a sh" cx="12" cy="22.5" rx="4" ry="0.9" stroke-width="1.4"></ellipse><g class="a pin"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"></path><circle cx="12" cy="9" r="2.5"></circle></g>
+</svg>
