@@ -9712,12 +9712,25 @@ button {
   right: 0;
 }
 
+/* Menu aktif: teks + garis bawah merah */
+.MainNav-module__S-yVva__active,
+.MainNav-module__S-yVva__active:hover,
 .MainNav-module__S-yVva__noActiveIndicator {
-  color: var(--header-nav-active, var(--color-on-dark));
+  color: #E6010F;
 }
 
-.MainNav-module__S-yVva__noActiveIndicator:after {
-  display: none;
+/* Garis aktif menempel ke tepi bawah bar menu */
+.SiteHeader-module__azVQWW__header .MainNav-module__S-yVva__link:after {
+  bottom: calc((100% - var(--header-height)) / 2);
+}
+
+.SiteHeader-module__azVQWW__header.SiteHeader-module__azVQWW__transparent .MainNav-module__S-yVva__link:after {
+  bottom: -6px;
+}
+
+.MobileNav-module__ygDSMq__link[aria-current] {
+  color: #E6010F;
+  font-weight: 600;
 }
 
 .MainNav-module__S-yVva__dropdownItem {
