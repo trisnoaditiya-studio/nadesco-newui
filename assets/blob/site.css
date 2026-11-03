@@ -10501,3 +10501,7 @@ body:has(.grecaptcha-badge) .FloatingWhatsApp-module__ESPX9W__button {
 }
 
 /*# sourceMappingURL=src_views_PrivacyPolicyPage_PrivacyPolicyPage_module_1gubn5v.css.map*/
+/* SEMENTARA: sembunyikan kartu "Lihat Produk & Solusi" di mega menu. Hapus aturan ini untuk menampilkannya lagi. */
+.mz-grid > li:has(> .mz-item[href="product-solution.dc.html"]) {
+  display: none;
+}
